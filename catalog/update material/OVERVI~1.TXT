@@ -1,0 +1,15 @@
+Hi there Chris,
+here are the latest web changes:
+
+1) The Sunny Startups descriptions - several items have an overall description then a color description of each variety. If this doesn't work let me know and I'll rework it.
+
+2) New Heading for Garden Articles with text on Resource page if you think it belongs there.  DONE
+
+3) Garden Article called Magnificent Seven DONE
+
+4) Garden ARticle called How to Plant a Rock Garden. DONE
+
+5) Garden Article best Selections for the Rock Garden
+
+6) Garden Article Shrubs for Alpine Gardens.  DONE
+

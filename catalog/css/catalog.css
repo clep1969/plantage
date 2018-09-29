@@ -1,0 +1,65 @@
+	//	CATALOG.CSS
+	//	Styles unique to the catalogue.
+	//	©2003 Chris Lepore for The Plantage, Inc.
+
+	h2	{
+			color: black;
+			font-weight: bolder;
+			font-size: 1.15em;
+			line-height: 1.25em;
+			font-family: Futura, Verdana,Helvetica,Arial,sans-serif;
+		}
+		
+	h3	{
+			color: black;
+			font-weight: bolder;
+			font-size: 1.15em;
+			line-height: 1.25em;
+			font-style: italic;
+			font-family:Futura, Verdana,Helvetica,Arial,sans-serif;
+		}
+		
+	h4	{
+			color: black;
+			font-weight: bolder;
+			font-size: .83em;
+			line-height:1.06em;
+			font-family:Verdana,Helvetica,Arial,sans-serif;
+		}
+		
+	.cultivar	{	font-weight:bolder;	}
+
+	.important	{
+					color: #000;
+					font-size: .9em;
+					line-height: 1.25em;
+					font-family: Verdana,Helvetica,Arial,sans-serif; word-spacing: normal;
+					letter-spacing: normal;
+					vertical-align:baseline;
+				}
+
+	.isNew	{
+				color: #060;
+				font-weight: 900;
+				text-transform: uppercase;
+			}
+
+	.varietal	{
+				color: black;
+				font-style:italic;
+				font-weight:bolder;
+			}
+	
+	#care	{	font-style:italic;	}
+
+	#commonName	{
+					font-style:italic;
+					font-weight:lighter;
+					align:right;
+				}
+	
+	#description	{
+					font-style:italic;
+					font-size:.95em;
+					line-height:1.1em;
+				}

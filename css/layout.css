@@ -1,0 +1,82 @@
+	/*	LAYOUT.CSS
+	//	Establishes basic layout for the whole of the site.
+	//	©2003 Chris Lepore for The Plantage, Inc.
+	*/
+
+	body	{
+		padding: 0px;
+		margin: 0px;
+		}
+
+	#container	{
+				width: 680px;
+				top:0px;
+				float:left;
+				clear:both;
+				}
+
+	#flag	{
+		width: 680px;
+		height: 72px;
+		float:left;
+		}
+
+	#navbar	{
+			float:left;
+			width: 680px;
+			height: 23px;
+			background: #090;
+			color: #090;
+			clear:both;
+			}
+
+	#image	{
+			position: relative;
+			left: 155px;
+			width: 360px;
+			height: 270px;
+			}
+
+	#footer	{
+			float:left;
+			margin-top: 12px;
+			clear:both;
+			}
+
+	#navbar a	{
+			font-size: 12px;
+			font-weight: 300;
+			line-height: 12px;
+			text-transform: uppercase;
+			text-decoration: none;
+			text-align: center;
+			vertical-align: middle;
+			font-family: "Gill Sans",gillsans,verdana,arial,helvetica,sans-serif;
+			color: #fff;
+			}
+
+	.home,.home-hover,.sales,.sales-hover,.info,.info-hover,.resources,.resources-hover	{
+				float: left;
+				padding-top: 5px;
+				height: 18px;
+				width: 138px;
+				text-align:center;
+				}
+
+	.home-hover,.sales-hover, .info-hover, .resources-hover	{	background: #f9ffb8;	}
+
+	.home	{	background: #009800;	}
+
+	#navbar .home-hover a	{	color: #090;	}
+
+	.sales	{	background: #7f9400;	}
+
+	#navbar .sales-hover a	{	color: #7f9400;	}
+
+	.info	{	background: #bf8e00;	}
+
+	#navbar .info-hover a	{	color: #bf8e00;	}
+
+	.resources	{	background: #95008e;	}
+
+	#navbar .resources-hover a	{	color: #95008e;	}

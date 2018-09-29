@@ -1,0 +1,62 @@
+h1      {
+                padding: .5em;
+                font-size: .83em;
+                color: #060;
+                font-weight: bold;
+        line-height: 1em;
+                font-family: verdana,arial,helvetica,sans-serif;
+        }
+
+p       {
+                padding: .5em;
+                font-size: .85em;
+                color: black;
+                font-weight: normal;
+                line-height: 1.25em;
+                font-family: verdana,arial,helvetica,sans-serif;
+        }
+
+a       {       
+                color: #060;
+                text-decoration: none;
+        }
+
+a:hover {       
+                        color: #090;
+                        text-decoration: underline;
+                }
+
+a:visited       {       
+                        color: #C60;
+                        text-decoration: none;
+                }
+
+ul      {
+                font-size: .7em;
+                color: black;
+                font-weight: normal;
+                line-height: 1em;
+                font-family: verdana,arial,helvetica,sans-serif;
+        }
+
+p.link  {
+                        padding: .5em;
+                        font-size: .85em;
+                        color: black;
+                        font-weight: normal;
+                        line-height: 1.25em;
+                        font-family: verdana,arial,helvetica,sans-serif;
+                }
+
+p.smallText     {
+                                font-size: .75em;
+                                color: black;
+                                font-weight: normal;
+                                line-height: 1em;
+                                font-family: verdana,arial,helvetica,sans-serif;
+                        }
+
+.pubName        {
+                                font-style: italic;
+                                font-weight: bolder;
+                        }

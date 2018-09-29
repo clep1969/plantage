@@ -1,0 +1,78 @@
+	/*	LEV_2.CSS
+	//	Styles that do not pertain to the Home Page.
+	//	©2003 Chris Lepore for The Plantage, Inc.
+	
+	//	BEGIN LAYOUT STYLES
+	*/
+
+	#sidebar	{
+			width: 100px;
+			margin-right:15px;
+			background: #090;
+			float: left;
+			}
+
+	#body	{
+			width: 560px;
+			float:left;
+			text-align: left;
+			}
+
+	/*
+	//	END LAYOUT STYLES
+	//	BEGIN PRESENTATION STYLES:
+	*/
+
+	#body h1	{
+		color: #060;
+		font-weight: bold;
+		font-size: 1.25em;
+		line-height: 1.25em;
+		padding-top: .38em;
+		font-family: Cochin, "Times New Roman", times, serif;
+		}
+
+	#body #col1	{
+				// This pertains to interior (section) home pages.
+				// This is a layout style.
+				position: relative;
+				width: 230px;
+				float: left;
+				padding-right: 20px;
+				}
+
+	#body #col2	{
+				// This pertains to interior (section) home pages.
+				// This is a layout style.
+				position: relative;
+				float: left;
+				top: 0px;
+				width: 300px;
+				}
+
+	p	{
+			padding: .5em;
+			font-size: 1em;
+			font-weight: normal;
+			line-height: 1.2em;
+		}
+	
+	ul	{
+			font-size: 1em;
+			font-weight: normal;
+			line-height: 1.2em;
+		}
+	
+	p.link	{
+			padding: .5em;
+			font-size: 1em;
+			font-weight: normal;
+			line-height: 1.33em;
+		}
+	
+	.pubName	{
+					font-style: italic;
+					font-weight: bolder;
+			}
+
+	//	END PRESENTATION STYLES

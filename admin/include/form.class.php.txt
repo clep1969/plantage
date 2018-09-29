@@ -1,0 +1,96 @@
+<?php
+	class Form	{
+		var $action;
+		var $method;
+		var $textField;
+		var $passField;
+		var $textArea;
+		var $radio;
+		var $checkBox;
+		var $selectList;
+		var $submit;
+		var $reset;
+
+		function textField()	{
+			$this->textField = new textField();
+			return $this->textField;
+		}
+
+		function passField()	{
+			$this->passField = new passField();
+			return $this->passField;
+		}
+
+		function textArea()	{
+			$this->textArea = new textArea();
+			return $this->textArea;
+		}
+
+		function radio()	{
+			$this->radio = new radio();
+			return $this->radio;
+		}
+
+		function checkBox()	{
+			$this->checkBox = new checkBox();
+			return $this->checkBox;
+		}
+
+		function selectList()	{
+			$this->selectList = new selectList();
+			return $this->selectList;
+		}
+
+		function submit()	{
+			$this->submit = new submit();
+			return $this->submit;
+		}
+
+		function reset()	{
+			$this->reset = new reset();
+			return $this->reset;
+		}
+
+		function setAction($url = $_SERVER["PHP_SELF"])	{
+			return $url;
+		}
+
+		function setMethod($i)	{
+			$method = array("get","post");
+			return $method[$i];
+		}
+
+		function Form()	{
+			$this->method = setMethod(1);
+			$this->action = setAction();
+			echo "<form action=\"".$this->action."\" method=\"".$this->method."\">\n";
+		}
+
+		function validate()	{
+		}
+	}
+
+	class textField	{
+	}
+
+	class passField	{
+	}
+
+	class textArea	{
+	}
+
+	class radio	{
+	}
+
+	class checkBox	{
+	}
+
+	class selectList	{
+	}
+
+	class submit	{
+	}
+
+	class reset	{
+	}
+?>
